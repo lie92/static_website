@@ -1,3 +1,3 @@
 FROM nginx
 EXPOSE 80
-COPY index.html /usr/share/nginx/html/index.html
+COPY dashboard/dist /usr/share/nginx/html/
