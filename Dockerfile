@@ -1,7 +1,7 @@
 FROM node:12.7-alpine AS build
 COPY landing-page/package.json landing-page/package-lock.json ./
 RUN npm install
-COPY . .
+COPY landing-page/. .
 RUN npm run build --prod
 
 ### STAGE 2: Run ###
