@@ -118,19 +118,19 @@ img {
 
 .silder {
   background-image: url(https://media-exp1.licdn.com/dms/image/C4D2DAQHQrsL9LgH2jw/profile-treasury-image-shrink_1920_1920/0?e=1606172400&v=beta&t=_h_9rJZ7lJ0nwNxf4zjOj0KDHUq6yI39R8H0O_t3jJA);
-  height: 100%;
-  width: 100%;
   background-size: cover;
+  background-repeat: no-repeat; 
   background-position: center;
+  margin: 0 auto;
+
+  height: 1056px;
+  width: 734px;
   opacity: .9;
 
   .silder-content {
     display: flex;
     justify-self: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
-
   }
 
 

@@ -1,31 +1,9 @@
 <mat-drawer-container>
-  <mat-drawer #drawer [mode]="isShowHideFlag">
-    <mat-icon aria-hidden="false" class="close" (click)="drawer.toggle()">close</mat-icon>
-    <br>
-    <h1>W3hubs</h1>
-    <mat-list role="list">
-      <mat-list-item role="listitem"><a mat-button>Link 1</a></mat-list-item>
-      <mat-list-item role="listitem"><a mat-button>Link 2 </a></mat-list-item>
-      <mat-list-item role="listitem"><a mat-button>Link 3</a></mat-list-item>
-      <mat-list-item role="listitem"><a mat-button>Link 4</a></mat-list-item>
-    </mat-list>
-  </mat-drawer>
   <mat-drawer-content>
-    <mat-toolbar class="nav">
-      <mat-list role="list">
-        <mat-list-item role="listitem"><a mat-button>Link 1</a></mat-list-item>
-        <mat-list-item role="listitem"><a mat-button>Link 2 </a></mat-list-item>
-        <mat-list-item role="listitem"><a mat-button>Link 3</a></mat-list-item>
-        <mat-list-item role="listitem"><a mat-button>Link 4</a></mat-list-item>
-      </mat-list>
-    </mat-toolbar>
     <div class="silder">
       <mat-icon aria-hidden="false" aria-label="Example home icon" class="desktop-hide" (click)="drawer.toggle()">
         reorder
       </mat-icon>
-      <div class="silder-content">
-        <h1>Angular Material Landing Page</h1>
-      </div>
     </div>
     <div class="features">
       <div class="row">
