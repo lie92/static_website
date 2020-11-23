@@ -1,8 +1,8 @@
 {
-  "name": "landing-page",
+  "name": "my-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "fng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
